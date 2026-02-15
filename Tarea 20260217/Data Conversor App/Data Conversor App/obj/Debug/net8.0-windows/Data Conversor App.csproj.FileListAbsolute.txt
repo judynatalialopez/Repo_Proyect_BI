@@ -1,0 +1,30 @@
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Data Conversor App.exe
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Data Conversor App.deps.json
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Data Conversor App.runtimeconfig.json
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Data Conversor App.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Data Conversor App.pdb
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.csproj.GenerateResource.cache
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.AssemblyInfoInputs.cache
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.AssemblyInfo.cs
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.csproj.CoreCompileInputs.cache
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\refint\Data Conversor App.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.pdb
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.genruntimeconfig.cache
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\ref\Data Conversor App.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Conversor App.csproj.AssemblyReference.cache
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data_Conversor_App.ImportDataF.resources
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\EPPlus.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\EPPlus.Interfaces.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\obj\Debug\net8.0-windows\Data Con.E32DDFA3.Up2Date
+C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260210\Data Conversor App\Data Conversor App\bin\Debug\net8.0-windows\EPPlus.System.Drawing.dll
