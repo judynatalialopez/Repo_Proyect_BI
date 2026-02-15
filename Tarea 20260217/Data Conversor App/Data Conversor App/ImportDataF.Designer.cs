@@ -110,6 +110,7 @@
             Controls.Add(dgvDatos);
             Name = "ImportDataF";
             Text = "ImportDataF";
+            Load += ImportDataF_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDatos).EndInit();
             ResumeLayout(false);
             PerformLayout();

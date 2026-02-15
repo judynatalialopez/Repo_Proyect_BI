@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\",
+  "WorkspaceRootPath": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|c:\\users\\johan\\onedrive\\documentos\\trabajos uninpahu\\s.viii\\inteligencia de negocios\\tarea 20260217\\data conversor app\\data conversor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|solutionrelative:data conversor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|c:\\users\\johan\\onedrive\\documentos\\trabajos uninpahu\\s.viii\\inteligencia de negocios\\tarea 20260217\\data conversor app\\data conversor app\\importdataf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|c:\\repo_proyect_bi\\tarea 20260217\\data conversor app\\data conversor app\\importdataf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|solutionrelative:data conversor app\\importdataf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\data conversor app\\importdataf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\data conversor app\\importdataf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|solutionrelative:data conversor app\\importdataf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|c:\\users\\johan\\onedrive\\documentos\\trabajos uninpahu\\s.viii\\inteligencia de negocios\\tarea 20260217\\data conversor app\\data conversor app\\importdataf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|c:\\repo_proyect_bi\\tarea 20260217\\data conversor app\\data conversor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|solutionrelative:data conversor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|c:\\repo_proyect_bi\\tarea 20260217\\data conversor app\\data conversor app\\importdataf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABBE2E8A-87F9-4210-A037-0848003B4765}|Data Conversor App\\Data Conversor App.csproj|solutionrelative:data conversor app\\importdataf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,11 +94,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Program.cs",
+              "DocumentMoniker": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Program.cs",
               "RelativeDocumentMoniker": "Data Conversor App\\Program.cs",
-              "ToolTip": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Program.cs",
+              "ToolTip": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Program.cs",
               "RelativeToolTip": "Data Conversor App\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -109,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ImportDataF.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.Designer.cs",
+              "DocumentMoniker": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.Designer.cs",
               "RelativeDocumentMoniker": "Data Conversor App\\ImportDataF.Designer.cs",
-              "ToolTip": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.Designer.cs",
+              "ToolTip": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.Designer.cs",
               "RelativeToolTip": "Data Conversor App\\ImportDataF.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,24 +120,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ImportDataF.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
+              "DocumentMoniker": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
               "RelativeDocumentMoniker": "Data Conversor App\\ImportDataF.cs",
-              "ToolTip": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
+              "ToolTip": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
               "RelativeToolTip": "Data Conversor App\\ImportDataF.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAANAAAA",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAQwHcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T01:55:51.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ImportDataF.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
+              "DocumentMoniker": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
               "RelativeDocumentMoniker": "Data Conversor App\\ImportDataF.cs",
-              "ToolTip": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs [Dise\u00F1o]",
               "RelativeToolTip": "Data Conversor App\\ImportDataF.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T01:54:06.214Z",

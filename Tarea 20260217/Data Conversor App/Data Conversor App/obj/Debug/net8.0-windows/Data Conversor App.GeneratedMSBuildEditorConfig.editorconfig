@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Data_Conversor_App
-build_property.ProjectDir = C:\Users\johan\OneDrive\Documentos\Trabajos UNINPAHU\S.VIII\Inteligencia de Negocios\Tarea 20260217\Data Conversor App\Data Conversor App\
+build_property.ProjectDir = C:\Repo_Proyect_BI\Tarea 20260217\Data Conversor App\Data Conversor App\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

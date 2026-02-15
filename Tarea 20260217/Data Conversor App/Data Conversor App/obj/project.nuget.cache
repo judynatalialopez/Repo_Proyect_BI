@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VmjwIUqhxK4=",
+  "dgSpecHash": "4oMk+s6SHyg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj",
+  "projectFilePath": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johan\\.nuget\\packages\\epplus\\7.1.0\\epplus.7.1.0.nupkg.sha512",
     "C:\\Users\\johan\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",

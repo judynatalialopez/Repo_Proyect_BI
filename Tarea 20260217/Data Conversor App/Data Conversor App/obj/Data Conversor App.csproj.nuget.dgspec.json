@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj": {}
+    "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj": {
+    "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj",
+        "projectUniqueName": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj",
         "projectName": "Data Conversor App",
-        "projectPath": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj",
+        "projectPath": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\Data Conversor App.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johan\\OneDrive\\Documentos\\Trabajos UNINPAHU\\S.VIII\\Inteligencia de Negocios\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\obj\\",
+        "outputPath": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
