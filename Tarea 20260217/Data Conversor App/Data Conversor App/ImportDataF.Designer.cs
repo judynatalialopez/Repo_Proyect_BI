@@ -33,7 +33,6 @@
             btnCargarExcel = new Button();
             cmbOperador = new ComboBox();
             txtValorFiltro = new TextBox();
-            btnAplicarFiltro = new Button();
             btnLimpiarFiltro = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDatos).BeginInit();
             SuspendLayout();
@@ -78,24 +77,17 @@
             txtValorFiltro.Name = "txtValorFiltro";
             txtValorFiltro.Size = new Size(125, 27);
             txtValorFiltro.TabIndex = 3;
-            // 
-            // btnAplicarFiltro
-            // 
-            btnAplicarFiltro.Location = new Point(324, 31);
-            btnAplicarFiltro.Name = "btnAplicarFiltro";
-            btnAplicarFiltro.Size = new Size(94, 29);
-            btnAplicarFiltro.TabIndex = 4;
-            btnAplicarFiltro.Text = "Aplicar";
-            btnAplicarFiltro.UseVisualStyleBackColor = true;
+            txtValorFiltro.TextChanged += txtValorFiltro_TextChanged;
             // 
             // btnLimpiarFiltro
             // 
-            btnLimpiarFiltro.Location = new Point(424, 31);
+            btnLimpiarFiltro.Location = new Point(328, 31);
             btnLimpiarFiltro.Name = "btnLimpiarFiltro";
             btnLimpiarFiltro.Size = new Size(94, 29);
             btnLimpiarFiltro.TabIndex = 5;
             btnLimpiarFiltro.Text = "Limpiar";
             btnLimpiarFiltro.UseVisualStyleBackColor = true;
+            btnLimpiarFiltro.Click += btnLimpiarFiltro_Click_1;
             // 
             // ImportDataF
             // 
@@ -103,7 +95,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1322, 671);
             Controls.Add(btnLimpiarFiltro);
-            Controls.Add(btnAplicarFiltro);
             Controls.Add(txtValorFiltro);
             Controls.Add(cmbOperador);
             Controls.Add(btnCargarExcel);
@@ -123,7 +114,6 @@
         private Button btnCargarExcel;
         private ComboBox cmbOperador;
         private TextBox txtValorFiltro;
-        private Button btnAplicarFiltro;
         private Button btnLimpiarFiltro;
     }
 }

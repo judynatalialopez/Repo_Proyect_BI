@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using OfficeOpenXml;
 using System.Data;
 using System.IO;
+using System.Text.RegularExpressions;
+
 
 namespace Data_Conversor_App
 {
@@ -37,19 +39,25 @@ namespace Data_Conversor_App
             using (var package = new ExcelPackage(new FileInfo(rutaArchivo)))
             {
                 ExcelWorksheet hoja = package.Workbook.Worksheets[0];
-                DataTable tabla = new DataTable();
 
-                ValidarDatos(tabla); 
-                dgvDatos.DataSource = tabla;
+                if (hoja.Dimension == null)
+                {
+                    MessageBox.Show("El archivo Excel está vacío");
+                    return;
+                }
+
+                DataTable tabla = new DataTable();
 
                 int columnas = hoja.Dimension.End.Column;
                 int filas = hoja.Dimension.End.Row;
 
+                // Crear columnas
                 for (int col = 1; col <= columnas; col++)
                 {
                     tabla.Columns.Add(hoja.Cells[1, col].Text);
                 }
 
+                // Llenar filas
                 for (int fila = 2; fila <= filas; fila++)
                 {
                     DataRow row = tabla.NewRow();
@@ -62,21 +70,19 @@ namespace Data_Conversor_App
                     tabla.Rows.Add(row);
                 }
 
-                if (hoja.Dimension == null)
-                {
-                    MessageBox.Show("El archivo Excel está vacío");
-                    return;
-                }
+                // 🔥 VALIDAR DESPUÉS DE LLENAR
+                bool esValido = ValidarDatos(tabla);
 
-                if (string.IsNullOrWhiteSpace(hoja.Cells[1, 1].Text))
+                if (!esValido)
                 {
-                    MessageBox.Show("El Excel no tiene encabezados");
+                    MessageBox.Show("El archivo contiene celdas vacías o datos inválidos. No se puede cargar.");
                     return;
                 }
 
                 dgvDatos.DataSource = tabla;
             }
         }
+
 
         private void ImportDataF_Load(object sender, EventArgs e)
         {
@@ -104,50 +110,87 @@ namespace Data_Conversor_App
             }
         }
 
-        private void btnLimpiarFiltro_Click(object sender, EventArgs e)
-        {
-            if (dgvDatos.DataSource is DataView dv)
-            {
-                dv.RowFilter = "";
-            }
-        }
-
-        private void ValidarDatos(DataTable dt)
+        private bool ValidarDatos(DataTable dt)
         {
             foreach (DataRow row in dt.Rows)
             {
-                // TIPO DOCUMENTO
-                string tipo = row["Tipo Documento"]?.ToString().Trim();
-
-                if (string.IsNullOrWhiteSpace(tipo))
+                // Validar que ninguna celda esté vacía
+                foreach (DataColumn col in dt.Columns)
                 {
-                    row.SetColumnError("Tipo Documento", "Obligatorio");
-                }
-                else if (!(tipo == "CC" || tipo == "TI" || tipo == "CE" || tipo == "PT"))
-                {
-                    row.SetColumnError("Tipo Documento", "Tipo no válido (CC, TI, CE, PT)");
+                    if (string.IsNullOrWhiteSpace(row[col].ToString()))
+                    {
+                        return false; // ❌ Bloquea carga
+                    }
                 }
 
-                // NUMERO DOCUMENTO
-                string numero = row["Numero Documento"]?.ToString().Trim();
+                // ========= TIPO DOCUMENTO =========
+                string tipo = row["Tipo Documento"].ToString().Trim().ToUpper();
 
-                if (string.IsNullOrWhiteSpace(numero))
+                if (!Regex.IsMatch(tipo, @"^[A-Z]+$"))
+                    return false;
+
+                if (!(tipo == "CC" || tipo == "TI" || tipo == "CE" || tipo == "PT"))
+                    return false;
+
+                // ========= NUMERO DOCUMENTO =========
+                string numero = row["Numero Documento"].ToString().Trim();
+
+                if (!Regex.IsMatch(numero, @"^[0-9]{6,}$"))
+                    return false;
+
+                // ========= SALARIO =========
+                string salarioTexto = row["Sueldo"].ToString().Trim();
+
+                if (!decimal.TryParse(salarioTexto, out decimal salario))
+                    return false;
+
+                if (salario <= 0)
+                    return false;
+            }
+
+            return true; // ✅ Todo válido
+        }
+
+
+        private void txtValorFiltro_TextChanged(object sender, EventArgs e)
+        {
+            if (dgvDatos.DataSource is DataTable dt)
+            {
+                if (string.IsNullOrWhiteSpace(txtValorFiltro.Text))
                 {
-                    row.SetColumnError("Numero Documento", "Obligatorio");
-                }
-                else if (!long.TryParse(numero, out _) || numero.Length < 6)
-                {
-                    row.SetColumnError("Numero Documento", "Número inválido");
+                    dt.DefaultView.RowFilter = "";
+                    return;
                 }
 
-                // SALARIO
-                string salarioTexto = row["Salario"]?.ToString().Trim();
+                if (!decimal.TryParse(txtValorFiltro.Text, out decimal valor))
+                    return;
 
-                if (!decimal.TryParse(salarioTexto, out decimal salario) || salario < 0)
-                {
-                    row.SetColumnError("Salario", "Salario inválido");
-                }
+                if (cmbOperador.SelectedItem == null)
+                    return;
+
+                string operador = cmbOperador.SelectedItem.ToString();
+
+                dt.DefaultView.RowFilter = $"Convert(Sueldo, 'System.Decimal') {operador} {valor}";
             }
         }
+
+
+        private void cmbOperador_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbOperador.Items.AddRange(new string[] { "=", ">", "<", "<>", ">=", "<=" });
+            cmbOperador.SelectedIndex = 1;
+        }
+
+        private void btnLimpiarFiltro_Click_1(object sender, EventArgs e)
+        {
+            if (dgvDatos.DataSource is DataTable dt)
+            {
+                dt.DefaultView.RowFilter = "";
+            }
+
+            txtValorFiltro.Clear(); // Limpia el campo
+            cmbOperador.SelectedIndex = 1; // Vuelve al operador por defecto
+        }
+
     }
 }

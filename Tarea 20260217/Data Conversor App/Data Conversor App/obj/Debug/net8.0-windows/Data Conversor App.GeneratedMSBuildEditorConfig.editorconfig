@@ -17,3 +17,6 @@ build_property.RootNamespace = Data_Conversor_App
 build_property.ProjectDir = C:\Repo_Proyect_BI\Tarea 20260217\Data Conversor App\Data Conversor App\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
