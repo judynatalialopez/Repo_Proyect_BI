@@ -106,8 +106,7 @@
               "RelativeToolTip": "Data Conversor App\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T02:17:02.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T02:17:02.515Z"
             },
             {
               "$type": "Document",
@@ -119,8 +118,7 @@
               "RelativeToolTip": "Data Conversor App\\ImportDataF.Designer.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAvwGUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T01:59:44.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T01:59:44.72Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,8 @@
               "Title": "ImportDataF.cs",
               "DocumentMoniker": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
               "RelativeDocumentMoniker": "Data Conversor App\\ImportDataF.cs",
-              "ToolTip": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs*",
-              "RelativeToolTip": "Data Conversor App\\ImportDataF.cs*",
+              "ToolTip": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
+              "RelativeToolTip": "Data Conversor App\\ImportDataF.cs",
               "ViewState": "AgIAAHkAAAAAAAAAAAAUwI0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T01:55:51.084Z",
@@ -141,11 +139,10 @@
               "Title": "ImportDataF.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs",
               "RelativeDocumentMoniker": "Data Conversor App\\ImportDataF.cs",
-              "ToolTip": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Data Conversor App\\ImportDataF.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Repo_Proyect_BI\\Tarea 20260217\\Data Conversor App\\Data Conversor App\\ImportDataF.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Data Conversor App\\ImportDataF.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T01:54:06.214Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-02-09T01:54:06.214Z"
             }
           ]
         }
