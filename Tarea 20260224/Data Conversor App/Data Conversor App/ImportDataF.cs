@@ -30,6 +30,7 @@ namespace Data_Conversor_App
         List<Empleado> empleados = new List<Empleado>();
         List<string> errores = new List<string>();
 
+
         private void btnCargarExcel_Click(object sender, EventArgs e)
         {
             ofdExcel.Filter = "Excel Files (*.xlsx)|*.xlsx";
@@ -37,14 +38,15 @@ namespace Data_Conversor_App
 
             if (ofdExcel.ShowDialog() == DialogResult.OK)
             {
-                List<Empleado> lista = CargarExcelAGrid(ofdExcel.FileName);
-                dgvDatos.DataSource = lista;
+                empleados = CargarExcelAGrid(ofdExcel.FileName);
+                dgvDatos.DataSource = empleados;
 
-                //FORMATO DEL SUELDO
-                dgvDatos.Columns["Salario"].DefaultCellStyle.Format = "N0";
-                dgvDatos.Columns["SaLario"].DefaultCellStyle.FormatProvider = new System.Globalization.CultureInfo("es-CO");
-                // string ruta = ofdExcel.FileName;
-                // CargarExcelAGrid(ruta);
+                if (dgvDatos.Columns["Sueldo"] != null)
+                {
+                    dgvDatos.Columns["Sueldo"].DefaultCellStyle.Format = "N0";
+                    dgvDatos.Columns["Sueldo"].DefaultCellStyle.FormatProvider =
+                        new System.Globalization.CultureInfo("es-CO");
+                }
             }
         }
 
@@ -297,7 +299,14 @@ namespace Data_Conversor_App
         }
         private void btnExportar_Click(object sender, EventArgs e)
         {
-            ExportarCSV(empleados);
+            if (empleados != null && empleados.Any())
+            {
+                ExportarCSV(empleados);
+            }
+            else
+            {
+                MessageBox.Show("No hay datos para exportar.");
+            }
         }
     }
 }

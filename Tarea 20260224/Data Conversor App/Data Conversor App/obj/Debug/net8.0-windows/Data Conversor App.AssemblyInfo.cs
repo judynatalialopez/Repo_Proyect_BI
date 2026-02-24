@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Data Conversor App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+075e06b09efdac730070098bfd75878bff4da9b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10ab2e354110010b99fd8a5046a01d6b111fb9e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Data Conversor App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Data Conversor App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

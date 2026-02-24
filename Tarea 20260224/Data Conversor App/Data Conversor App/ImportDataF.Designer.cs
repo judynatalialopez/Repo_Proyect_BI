@@ -151,6 +151,7 @@
             btnExportar.TabIndex = 10;
             btnExportar.Text = "Exportar CSV";
             btnExportar.UseVisualStyleBackColor = true;
+            btnExportar.Click += btnExportar_Click;
             // 
             // ImportDataF
             // 
